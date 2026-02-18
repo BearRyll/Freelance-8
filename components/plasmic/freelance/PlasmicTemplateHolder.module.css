@@ -1,0 +1,40 @@
+.root {
+  display: flex;
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  flex-direction: column;
+  position: relative;
+  justify-self: flex-start;
+  background: var(--token-IvcA_TFDcQSw);
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.2);
+  min-height: auto;
+  min-width: 0;
+  border-radius: 20px;
+  padding: 20px;
+}
+.img {
+  object-fit: cover;
+  max-width: 100%;
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.h4 {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  color: #ffffff;
+  min-width: 0;
+}
+.text {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  color: #ffffff;
+  min-width: 0;
+}
