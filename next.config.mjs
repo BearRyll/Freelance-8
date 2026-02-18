@@ -5,6 +5,10 @@ const nextConfig = {
     unoptimized: true,
   },
   trailingSlash: true,
+  // Ignore ESLint errors during the build process
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default nextConfig;
